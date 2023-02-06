@@ -4,7 +4,7 @@ o final do projeto ficou assim, e esta na vercel para poderem checar
 
 
 <h1 align="center"> home </h1>
-<img align="center" src="https://user-images.githubusercontent.com/85709318/217090932-70c4e7b5-2051-44c1-a7a3-1d859e8b27d8.PNG">
+<img align="center" src="https://user-images.githubusercontent.com/85709318/217095609-d83735e3-9283-4bf6-adfc-d2ae827d6f0c.PNG">
 
 <h1 align="center"> sobre </h1>
 <img align="center" src="https://user-images.githubusercontent.com/85709318/217090926-8ababf16-0c88-45d9-8c0c-503ed6acfdca.PNG">
