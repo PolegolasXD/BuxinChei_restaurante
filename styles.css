@@ -49,11 +49,12 @@ body {
 .logo {
     background: url("image/logo.png") no-repeat;
     background-size: contain;
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 120px;
     position: relative;
     margin-top: 50px;
     z-index: 9;
+    border-radius: 30px;
 }
 
 /* tamnha das fontes*/
