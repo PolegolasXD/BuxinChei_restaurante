@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,23 +9,24 @@
 
 /* mini Framework*/
 
-html, body{
+html,
+body {
     height: 100%;
-    
+
 }
 
-.max-width{
+.max-width {
     width: 100%;
     min-height: 100vh;
 }
 
-.bg{
+.bg {
     background: url('image/bg.jpg') no-repeat;
     background-size: cover;
     height: auto;
 }
 
-.container{
+.container {
     max-width: 1330px;
     margin: 0 auto;
     display: flex;
@@ -36,7 +37,7 @@ html, body{
 
 /* menu */
 
-.menu{
+.menu {
     width: 100%;
     height: 80px;
     display: flex;
@@ -45,7 +46,7 @@ html, body{
     padding: 0 2%;
 }
 
-.logo{
+.logo {
     background: url("image/logo.png") no-repeat;
     background-size: contain;
     width: 200px;
@@ -56,47 +57,47 @@ html, body{
 }
 
 /* tamnha das fontes*/
-.text-gd{
+.text-gd {
     font-size: 64px;
 
 }
 
-.text-md{
+.text-md {
     font-size: 36px;
 }
 
-.text-pq{
+.text-pq {
     font-size: 14px;
 }
 
-.text-title{
+.text-title {
     font-size: 20px;
     font-weight: 600;
 }
 
 /* Cores de texto */
 
-.color-laranja{
+.color-laranja {
     color: #fa5e00;
 }
 
-.color-cinza-1{
+.color-cinza-1 {
     color: #2b2b2b;
 }
 
-.color-cinza-2{
+.color-cinza-2 {
     color: #545454;
 }
 
 /* chamada */
 
-.call{
+.call {
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
 
-.left{
+.left {
     width: 50%;
     min-height: 600px;
     max-height: 800px;
@@ -106,7 +107,8 @@ html, body{
     padding: 0 2%;
 
 }
-.right{
+
+.right {
     width: 50%;
     min-height: 600px;
     max-height: 800px;
@@ -119,7 +121,7 @@ html, body{
 
 /* Imagem */
 
-img{
+img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -128,7 +130,7 @@ img{
 
 /* botao */
 
-button{
+button {
     padding: 10px 20px;
     background: #fa5e00;
     color: #fff;
@@ -138,13 +140,13 @@ button{
     transition: 0.3s ease;
 }
 
-button:hover{
+button:hover {
     border: 1px solid #fa5e00;
     background: #fff;
     color: #fa5e00;
 }
 
-.content{
+.content {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -154,7 +156,7 @@ button:hover{
     min-height: 800px;
 }
 
-.down{
+.down {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -164,7 +166,7 @@ button:hover{
 
 /* titulo */
 
-.titulo{
+.titulo {
     width: 100%;
     min-height: 250px;
     display: flex;
@@ -175,7 +177,7 @@ button:hover{
 
 /* box */
 
-.box{
+.box {
     width: 25%;
     min-height: 125px;
     display: flex;
@@ -187,35 +189,35 @@ button:hover{
 
 /* info   */
 
-.info{
+.info {
     display: flex;
 }
 
 /*desktop-menu*/
 
-.desktop-menu ul{
+.desktop-menu ul {
     display: flex;
 }
 
-.desktop-menu ul li{
+.desktop-menu ul li {
     padding: 0 25px;
     list-style-type: none;
 }
 
-.desktop-menu ul li a{
+.desktop-menu ul li a {
     text-decoration: none;
     color: #545454;
     font-size: 18px;
 }
 
-.desktop-menu ul li a:hover{
+.desktop-menu ul li a:hover {
     color: #fa5e00;
     font-weight: 500;
 }
 
 /* back-to-top */
 
-#back-to-top{
+#back-to-top {
     position: fixed;
     bottom: 2px;
     right: 10px;
@@ -226,15 +228,15 @@ button:hover{
 
 /*scrollbar personalização*/
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     width: 12px;
 }
 
-body::-webkit-scrollbar-track{
+body::-webkit-scrollbar-track {
     background: #fff;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
     background-color: #2b2b2b;
     border-radius: 20px;
     border: 1px solid #fff;
@@ -247,105 +249,133 @@ body::-webkit-scrollbar-thumb{
     justify-content: flex-start;
 }
 
-#home .right{
+#home .right {
     flex-direction: column;
     align-items: flex-end;
 }
 
-#home .right h1{
+#home .right h1 {
     text-align: end;
 }
 
-#home .right h2{
-    text-align: end;
-    margin-top: 20px;
-}
-
-#home .right p{
+#home .right h2 {
     text-align: end;
     margin-top: 20px;
 }
 
-#home .right button{
+#home .right p {
+    text-align: end;
+    margin-top: 20px;
+}
+
+#home .right button {
     margin-top: 30px
 }
 
-#home .left img{
+#home .left img {
     border-radius: 30px;
 }
 
 /* about */
 
-#about .left{
+#about .left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-#about .left span{
+#about .left span {
     margin-top: 20px;
 }
 
-#about .left p{
+#about .left p {
     margin-top: 20px;
 }
 
-#about .left button{
+#about .left button {
     margin-top: 20px;
 }
 
-#about .right img{
+#about .right img {
     border-radius: 30px;
 }
 
 /* service */
 
-#service .box i{
+#service .box i {
     border: 4px solid #2b2b2b;
     border-radius: 30px;
     padding: 30px;
     margin-top: 10px;
 }
 
-#service .box h2{
+#service .box h2 {
     margin-top: 20px;
     text-align: center;
 }
 
-#service .box p{ 
+#service .box p {
     margin-top: 20px;
     text-align: center;
 }
 
 /* menu */
 
-#menu .box{
+#menu .box {
     background: #2b2b2b;
     border-radius: 20px;
     border: 5px solid #fa5e00;
     margin: 10px;
 }
 
-#menu .box img{
+#menu .box img {
     width: 80%;
     height: auto;
     margin-top: 5px;
 }
 
-#menu .box h2{
+#menu .box h2 {
     margin-top: 20px;
 }
 
-#menu .box p{
+#menu .box p {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 18px;
     color: #fff;
 }
 
-#menu .box .text-md{
+#menu .box .text-md {
     font-size: 22px;
 }
 
 
-    
+/* contact */
+
+#contact .left {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#contact .left h2 {
+    margin-top: 20px;
+}
+
+#contact .left p {
+    margin-top: 20px;
+}
+
+#contact .left .info img {
+    display: flex;
+    flex-direction: column;
+    width: 125px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#contact .right img{
+    width: 50%;
+    height: auto;
+    margin-top: 120px;
+}
