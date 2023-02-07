@@ -49,8 +49,8 @@ body {
 .logo {
     background: url("image/logo.png") no-repeat;
     background-size: contain;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     position: relative;
     margin-top: 50px;
     z-index: 9;
@@ -603,7 +603,7 @@ footer .container p {
 @media screen and (max-width: 648px){
 
     .logo{
-        width: 110px;
+        width: 100px;
         top: 5px;
     }
 
